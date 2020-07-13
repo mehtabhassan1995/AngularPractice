@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DbcomponentComponent implements OnInit {
 
-  component: string = 'Data Binding Component';
+  component: string = 'Data Binding';
 
   constructor() { }
 
