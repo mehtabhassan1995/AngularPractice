@@ -8,17 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class InputcomponentComponent implements OnInit {
   status :string = "Server is not created";
   twoWayBinding: string = "Two way Binding";
-  allowedServer = false;
 
-  constructor() { 
-    setTimeout(() => {
-      this.allowedServer = true;
-    }, 2000);
-  }
-
-  // createServer(){
-  //   this.serverStatus = "created";
-  // }
   updateStatus(event: any){
     this.status = (<HTMLInputElement>event.target).value;
   }

@@ -10,9 +10,6 @@ export class EbcomponentComponent implements OnInit {
   allowedServer = false;
 
   constructor() { 
-    setTimeout(() => {
-      this.allowedServer = true;
-    }, 2000);
   }
 
   createServer(){

@@ -1,7 +1,6 @@
-<!-- Input Data with Event Binding -->
+<!-- Input Data with Event Binding and Directive-->
 <input type="text" (input)="updateStatus($event)">
 <input type="text" [(ngModel)]="twoWayBinding">
-<!-- <button [disabled]="!allowedServer" (click)="createServer()">Button</button> -->
 <p>{{ status }}</p>
 
 <p>{{ twoWayBinding }}</p>
