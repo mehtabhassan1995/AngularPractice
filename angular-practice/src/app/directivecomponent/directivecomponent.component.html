@@ -1,0 +1,8 @@
+<!-- Directives -->
+<input type="text" [(ngModel)]="twoWayBinding">
+<br>
+<button [disabled]="!allowedServer" (click)="showText()">Button</button>
+<p *ngIf = "conditionalDirective">{{ twoWayBinding }}</p>
+
+<button [disabled]="!allowedServer" (click)="addText()">Add Button</button>
+<app-dbcomponent *ngFor="let arr of arrayList"></app-dbcomponent>

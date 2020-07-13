@@ -8,6 +8,7 @@ import { DbcomponentComponent } from './dbcomponent/dbcomponent.component';
 import { PbcomponentComponent } from './pbcomponent/pbcomponent.component';
 import { EbcomponentComponent } from './ebcomponent/ebcomponent.component';
 import { InputcomponentComponent } from './inputcomponent/inputcomponent.component';
+import { DirectivecomponentComponent } from './directivecomponent/directivecomponent.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { InputcomponentComponent } from './inputcomponent/inputcomponent.compone
     DbcomponentComponent,
     PbcomponentComponent,
     EbcomponentComponent,
-    InputcomponentComponent
+    InputcomponentComponent,
+    DirectivecomponentComponent
   ],
   imports: [
     BrowserModule,
