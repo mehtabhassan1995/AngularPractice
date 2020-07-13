@@ -6,6 +6,7 @@ import { FirstcomponentComponent } from './firstcomponent/firstcomponent.compone
 import { DbcomponentComponent } from './dbcomponent/dbcomponent.component';
 import { PbcomponentComponent } from './pbcomponent/pbcomponent.component';
 import { EbcomponentComponent } from './ebcomponent/ebcomponent.component';
+import { InputcomponentComponent } from './inputcomponent/inputcomponent.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { EbcomponentComponent } from './ebcomponent/ebcomponent.component';
     FirstcomponentComponent,
     DbcomponentComponent,
     PbcomponentComponent,
-    EbcomponentComponent
+    EbcomponentComponent,
+    InputcomponentComponent
   ],
   imports: [
     BrowserModule
