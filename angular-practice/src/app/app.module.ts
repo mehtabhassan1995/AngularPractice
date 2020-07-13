@@ -1,11 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 // import { AppComponent } from './app.component';
 import { FirstcomponentComponent } from './firstcomponent/firstcomponent.component';
 import { DbcomponentComponent } from './dbcomponent/dbcomponent.component';
 import { PbcomponentComponent } from './pbcomponent/pbcomponent.component';
 import { EbcomponentComponent } from './ebcomponent/ebcomponent.component';
+import { InputcomponentComponent } from './inputcomponent/inputcomponent.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,12 @@ import { EbcomponentComponent } from './ebcomponent/ebcomponent.component';
     FirstcomponentComponent,
     DbcomponentComponent,
     PbcomponentComponent,
-    EbcomponentComponent
+    EbcomponentComponent,
+    InputcomponentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [FirstcomponentComponent]
