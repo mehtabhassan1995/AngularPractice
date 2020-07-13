@@ -4,12 +4,16 @@ import { NgModule } from '@angular/core';
 // import { AppComponent } from './app.component';
 import { FirstcomponentComponent } from './firstcomponent/firstcomponent.component';
 import { DbcomponentComponent } from './dbcomponent/dbcomponent.component';
+import { PbcomponentComponent } from './pbcomponent/pbcomponent.component';
+import { EbcomponentComponent } from './ebcomponent/ebcomponent.component';
 
 @NgModule({
   declarations: [
     // AppComponent,
     FirstcomponentComponent,
-    DbcomponentComponent
+    DbcomponentComponent,
+    PbcomponentComponent,
+    EbcomponentComponent
   ],
   imports: [
     BrowserModule
